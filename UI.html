@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Explainer • Popup</title>
+  <link rel="stylesheet" href="UI.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo-dot" aria-hidden="true"></div>
+      <h1>Word Explainer</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <label class="label" for="mode">Mode</label>
+      <select id="mode" class="input">
+        <option value="explain" selected>Explain selection (plain English)</option>
+        <option value="comment">Generate inline code comments</option>
+        <option value="rewrite">Reword for clarity (keep behavior)</option>
+        <option value="summarize">Summarize what this code does</option>
+      </select>
+    </section>
+
+    <section class="grid-2">
+      <div>
+        <label class="label" for="tone">Tone</label>
+        <select id="tone" class="input">
+          <option value="neutral" selected>Neutral</option>
+          <option value="concise">Concise</option>
+          <option value="friendly">Friendly</option>
+          <option value="formal">Formal</option>
+          <option value="beginner">Beginner-friendly</option>
+        </select>
+      </div>
+      <div>
+        <label class="label" for="detail">Detail</label>
+        <select id="detail" class="input">
+          <option value="auto" selected>Auto</option>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div>
+        <label class="label" for="language">Language (optional)</label>
+        <input id="language" class="input" placeholder="e.g., Python, JavaScript" />
+      </div>
+      <div>
+        <label class="label" for="audience">Audience</label>
+        <select id="audience" class="input">
+          <option value="dev" selected>Developer</option>
+          <option value="student">Student</option>
+          <option value="pm">PM / Non‑technical</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="row">
+        <button id="grabSelection" class="btn btn-secondary" title="Use highlighted code from the current tab">Use page selection</button>
+        <span id="grabStatus" class="muted" role="status" aria-live="polite"></span>
+      </div>
+      <label class="label" for="source">Code / text</label>
+      <textarea id="source" class="input code" rows="8" placeholder="Highlight code on the page and click ‘Use page selection’, or paste code here…"></textarea>
+    </section>
+
+    <section class="row">
+      <button id="run" class="btn btn-primary">Run</button>
+      <button id="copy" class="btn">Copy Output</button>
+      <label class="checkbox">
+        <input type="checkbox" id="includeExamples" />
+        <span>Include small examples when useful</span>
+      </label>
+    </section>
+
+    <section class="section">
+      <label class="label" for="output">Output</label>
+      <textarea id="output" class="input output" rows="10" readonly placeholder="The result will appear here…"></textarea>
+      <div id="status" class="muted" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="../options/options.html" target="_blank" rel="noreferrer">Options</a>
+    <span>•</span>
+    <a id="openDocs" href="#" target="_blank" rel="noreferrer">Docs</a>
+  </footer>
+
+  <script src="UI.js"></script>
+</body>
+</html>
