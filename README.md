@@ -59,6 +59,5 @@ All processing happens locally through Chrome’s built-in AI engine using Gemin
 ## 🛠️ Installation
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/<your-repo-name>/word-explainer.git](https://github.com/asma675/Google-Chrome-Built-in-AI-Challenge-2025---Oct-31-2025.git
-
+   git clone https://github.com/asma675/WordRewriter_ChromeExtension_Google-Chrome-Built-in-AI-Challenge-2025.git
 ## By: Asma Ahmed and Zaki Amin Ahmad 
