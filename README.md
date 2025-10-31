@@ -25,11 +25,7 @@ It runs entirely within Chrome, using local AI processing to provide quick and p
 
 | API | Purpose |
 |-----|----------|
-| **Prompt API** | Creates prompts to understand the context of the selected text. |
 | **Rewriter API** | Rephrases text into a clearer and simpler version. |
-| **Writer API** | Produces concise explanations or short summaries. |
-| **Proofreader API** | Checks and improves grammar and tone. |
-| **Translator API** *(optional)* | Offers translation for multilingual users. |
 
 All processing happens locally through Chrome’s built-in AI engine using Gemini Nano.
 
