@@ -4,20 +4,19 @@ Created for the Google Chrome Built-in AI Challenge 2025
 ---
 
 ## 🚀 Overview
-**Word Explainer** is a Chrome Extension that helps users better understand or rephrase text directly within the browser.  
-Using Chrome’s new built-in AI powered by **Gemini Nano**, it can explain or rewrite selected text in plain English while keeping everything local on your device. This provides both privacy and instant results without relying on an internet connection.
+**Word Explainer** is a Chrome extension that enables users to reword or better comprehend text right within the browser.  
+It can explain or rewrite specific language in plain English using Chrome's new built-in AI, which is powered by **Gemini Nano** and keeps everything local on your device. This doesn't require an internet connection and offers both privacy and immediate results.
 
 ---
 
 ## 🧩 The Problem
-When reading online content, people often encounter words or sentences that are confusing or too complex.  
-Switching between tabs to search for meanings or simpler phrasing disrupts focus and slows down reading. Readers need a faster and smoother way to make sense of difficult passages without leaving the page.
-
+People frequently come across unclear or overly complicated words or sentences when reading online content.  
+Reading is slowed down and distracted when one flips between tabs to look for definitions or simpler phrases. There must be a quicker and easier way for readers to understand challenging parts without ever leaving the page.
 ---
 
 ## 💡 The Solution
-**Word Explainer** allows you to highlight any word or paragraph on a web page and instantly receive a clear explanation or an alternative version of the text.  
-It runs entirely within Chrome, using local AI processing to provide quick and private results. This makes it useful for anyone who reads, writes, or studies online.
+You may use **Word Explainer** to highlight any word or paragraph on a webpage and get an alternate version of the text or a detailed explanation right away.  
+It uses local AI processing to deliver fast and confidential results and operates fully within Chrome.  Anyone who reads, writes, or studies online may benefit from it because of this.
 
 ---
 
@@ -32,11 +31,11 @@ All processing happens locally through Chrome’s built-in AI engine using Gemin
 ---
 
 ## 🖥️ Features
-- Highlight any text to receive an instant explanation or rewrite.  
-- Get plain-English explanations that make complex text easier to follow.  
-- Adjust tone and level of detail according to your preference.  
-- Works offline and keeps all data private.  
-- Includes a clean and simple interface that fits well with Chrome’s design.
+- To get a quick explanation or rewrite, highlight any text.  
+- Get explanations in simple English to help you understand difficult language.  
+- To suit your tastes, change the tone and degree of detail.  
+- Operates offline and maintains the privacy of all data.
+- Has an easy-to-use interface that complements the design of Chrome.
 
 ---
 
@@ -49,11 +48,11 @@ All processing happens locally through Chrome’s built-in AI engine using Gemin
 ---
 
 ## 🧠 How It Works
-1. Highlight a word or sentence on any website.  
-2. Open the **Word Explainer** popup and choose **Use page selection**.  
-3. Select your preferred mode to either explain or reword the text.  
-4. Click **Run** to generate the explanation or rewritten version.  
-5. Copy or save the result directly from the output panel.
+1. On any webpage, highlight a word or sentence.  
+2. Select **Use page selection** when the **Word Explainer** box appears.
+3. Choose your favorite style to rephrase or clarify the material.  
+4. To create the explanation or revised version, click **Run**.  
+5. Straight from the output panel, copy or save the outcome.
 
 ---
 
