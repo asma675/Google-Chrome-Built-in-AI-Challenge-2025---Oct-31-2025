@@ -65,3 +65,5 @@ All processing happens locally through Chrome’s built-in AI engine using Gemin
 1. Clone this repository:  
    ```bash
    git clone https://github.com/<your-repo-name>/word-explainer.git
+
+## By: Asma Ahmed and Zaki Amin Ahmad 
