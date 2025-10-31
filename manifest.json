@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Word Rewriter",
+  "version": "1.0.0",
+  "description": "Rewrites text for clarity with different tones",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "backend/backendLogic.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "frontend/UI.html"
+  }
+}
