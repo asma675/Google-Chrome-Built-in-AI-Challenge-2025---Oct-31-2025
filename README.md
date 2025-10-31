@@ -1,4 +1,4 @@
-# 🧠 Word Explainer and Rewriter – Chrome Extension  
+# 🧠 Word Rewriter
 Created for the Google Chrome Built-in AI Challenge 2025  
 
 ---
